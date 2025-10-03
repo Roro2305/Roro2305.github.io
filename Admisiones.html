@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Jose Rodrigo Gonzalez Ramirez - AlfaNova</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <h1 class="site-heading text-center text-faded d-none d-lg-block">
+        <span class="site-heading-upper text-primary mb-3">Colegio de Innovación y Excelencia Educativa</span>
+        <span class="site-heading-lower">"AlfaNova"</span>
+    </h1>
+</header>
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Colegio AlfaNova</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Inicio</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Nosotros.html">Nosotros </a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Carreras.html">Carreras</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Admisiones.html">Admisiones</a></li>
+                <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="page-section" id="contact">
+    <div class="container">
+
+        <div class="text-center mb-4">
+            <section class="page-section">
+  <div class="container">
+    <div class="product-item">
+      <div class="product-item-title d-flex justify-content-center">
+        <div class="bg-faded p-5 d-flex rounded text-center">
+          <h2 class="section-heading mb-0">
+            <span class="section-heading-lower">“Selecciona tu nivel educativo”.</span>
+            <span class="section-heading-upper">Formulario de Inscripción.</span>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+            <select id="nivel" class="form-control w-50 mx-auto mt-3" required>
+                <option value="">-- Seleccione una opción --</option>
+                <option value="preprimaria">Preprimaria</option>
+                <option value="primaria">Primaria</option>
+                <option value="basico">Básico</option>
+                <option value="diversificado">Diversificado</option>
+            </select>
+        </div>
+
+        <!-- FORMULARIOS DINÁMICOS -->
+
+        <!-- PREPRIMARIA -->
+        <form id="form-preprimaria" action="https://formsubmit.co/rodrigogonzalezindora@gmail.com" method="POST"
+            class="mb-4 p-4 bg-white shadow rounded" style="display:none;">
+            <h4 class="mb-3">Formulario Preprimaria</h4>
+            <input class="form-control mb-2" name="Nombre" placeholder="Nombre del estudiante *" required>
+            <input class="form-control mb-2" name="Apellido" placeholder="Apellido del estudiante *" required>
+            <input class="form-control mb-2" type="number" name="Edad" placeholder="Edad del estudiante *" required>
+            <select class="form-control mb-2" name="Etapa" required>
+                <option value="">-- Seleccione la etapa --</option>
+                <option value="Etapa 1(4 años)">Etapa 1 (4 años)</option>
+                <option value="Etapa 2(5 años)">Etapa 2 (5 años)</option>
+                <option value="Etapa 3(6 años)">Etapa 3 (6 años)</option>
+            </select>
+            <h5>Datos del Padre o Encargado</h5>
+            <input class="form-control mb-2" name="Nombre_Padre" placeholder="Nombre *" required>
+            <input class="form-control mb-2" name="Apellido_Padre" placeholder="Apellido *" required>
+            <input class="form-control mb-2" type="tel" name="Telefono" placeholder="Teléfono *" required>
+            <input class="form-control mb-2" type="email" name="Correo" placeholder="Correo *" required>
+            <input class="form-control mb-2" name="Parentesco" placeholder="Parentesco *" required>
+            <input type="hidden" name="_next" value="https://roro2305.github.io/Admisiones.html">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+        <!-- PRIMARIA -->
+        <form id="form-primaria" action="https://formsubmit.co/rodrigogonzalezindora@gmail.com" method="POST"
+            class="mb-4 p-4 bg-white shadow rounded" style="display:none;">
+            <h4 class="mb-3">Formulario Primaria</h4>
+            <input class="form-control mb-2" name="Nombre" placeholder="Nombre del estudiante *" required>
+            <input class="form-control mb-2" name="Apellido" placeholder="Apellido del estudiante *" required>
+            <input class="form-control mb-2" type="number" name="Edad" placeholder="Edad del estudiante *" required>
+            <input class="form-control mb-2" type="email" name="CorreoEstudiante" placeholder="Correo (opcional)">
+            <select class="form-control mb-2" name="Grado" required>
+                <option value="">-- Seleccione el grado --</option>
+                <option value="Primero">Primero</option>
+                <option value="Segundo">Segundo</option>
+                <option value="Tercero">Tercero</option>
+                <option value="Cuarto">Cuarto</option>
+                <option value="Quinto">Quinto</option>
+                <option value="Sexto">Sexto</option>
+            </select>
+            <h5>Datos del Padre o Encargado</h5>
+            <input class="form-control mb-2" name="Nombre_Padre" placeholder="Nombre *" required>
+            <input class="form-control mb-2" name="Apellido_Padre" placeholder="Apellido *" required>
+            <input class="form-control mb-2" type="tel" name="Telefono" placeholder="Teléfono *" required>
+            <input class="form-control mb-2" type="email" name="Correo" placeholder="Correo *" required>
+            <input class="form-control mb-2" name="Parentesco" placeholder="Parentesco *" required>
+            <input type="hidden" name="_next" value=https://roro2305.github.io/Admisiones.html>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+        <!-- BÁSICO -->
+        <form id="form-basico" action="https://formsubmit.co/rodrigogonzalezindora@gmail.com" method="POST"
+            class="mb-4 p-4 bg-white shadow rounded" style="display:none;">
+            <h4 class="mb-3">Formulario Básico</h4>
+            <input class="form-control mb-2" name="Nombre" placeholder="Nombre del estudiante *" required>
+            <input class="form-control mb-2" name="Apellido" placeholder="Apellido del estudiante *" required>
+            <input class="form-control mb-2" type="number" name="Edad" placeholder="Edad del estudiante *" required>
+            <input class="form-control mb-2" type="email" name="CorreoEstudiante" placeholder="Correo (opcional)">
+            <select class="form-control mb-2" name="Grado" required>
+                <option value="">-- Seleccione el grado --</option>
+                <option value="Primero_Basico">Primero Básico</option>
+                <option value="Segundo_Basico">Segundo Básico</option>
+                <option value="Tercero_Basico">Tercero Básico</option>
+            </select>
+            <h5>Datos del Padre o Encargado</h5>
+            <input class="form-control mb-2" name="Nombre_Padre" placeholder="Nombre *" required>
+            <input class="form-control mb-2" name="Apellido_Padre" placeholder="Apellido *" required>
+            <input class="form-control mb-2" type="tel" name="Telefono" placeholder="Teléfono *" required>
+            <input class="form-control mb-2" type="email" name="Correo" placeholder="Correo *" required>
+            <input class="form-control mb-2" name="Parentesco" placeholder="Parentesco *" required>
+            <input type="hidden" name="_next" value="https://roro2305.github.io/Admisiones.html">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+        <!-- DIVERSIFICADO -->
+        <form id="form-diversificado" action="https://formsubmit.co/rodrigogonzalezindora@gmail.com" method="POST"
+            class="mb-4 p-4 bg-white shadow rounded" style="display:none;">
+            <h4 class="mb-3">Formulario Diversificado</h4>
+            <input class="form-control mb-2" name="Nombre" placeholder="Nombre del estudiante *" required>
+            <input class="form-control mb-2" name="Apellido" placeholder="Apellido del estudiante *" required>
+            <input class="form-control mb-2" type="number" name="Edad" placeholder="Edad del estudiante *" required>
+            <input class="form-control mb-2" type="email" name="CorreoEstudiante" placeholder="Correo (opcional)">
+            <select class="form-control mb-2" name="Carrera" required>
+                <option value="">-- Seleccione la carrera --</option>
+                <option value="Computacion">Computación</option>
+                <option value="Perito_Contador">Perito Contador</option>
+                <option value="Bachillerato_Ciencias_Letras">Ciencias y Letras</option>
+                <option value="Bachillerato_Ciencias_Letras_Computacion">Ciencias y Letras con Computación</option>
+                <option value="Magisterio_Infantil_Bilingue">Magisterio Infantil Bilingüe</option>
+                <option value="Perito_Administracion_Empresas">Administración de Empresas</option>
+                <option value="Secretariado_Bilingue">Secretariado Bilingüe</option>
+                <option value="Bachillerato_Ciencias_Letras_Medicina">Ciencias y Letras con Medicina</option>
+                <option value="Bachillerato_Ciencias_Letras_Arte">Ciencias y Letras con Arte</option>
+                <option value="Bachillerato_Ciencias_Biologicas">Ciencias Biológicas</option>
+                <option value="Bachillerato_Ciencias_Sociales">Ciencias Sociales</option>
+                <option value="Bachillerato_Disenio_Grafico">Diseño Gráfico</option>
+                <option value="Perito_Electronica_Electricidad">Electrónica y Electricidad</option>
+                <option value="Perito_Mecanica_Automotriz">Mecánica Automotriz</option>
+                <option value="Perito_Turismo_Hotel">Turismo y Hotelería</option>
+                <option value="Bachillerato_Ciencias_Letras_Derecho">Ciencias y Letras con Derecho</option>
+                <option value="Bachillerato_Ciencias_Letras_Informatica">Ciencias y Letras con Informática</option>
+                <option value="Perito_Dibujo_Construccion">Dibujo de Construcción</option>
+                <option value="Bachillerato_Ciencias_Letras_Educacion_Fisica">Educación Física</option>
+                <option value="Perito_Agronomia">Agronomía</option>
+            </select>
+            <h5>Datos del Padre o Encargado</h5>
+            <input class="form-control mb-2" name="Nombre_Padre" placeholder="Nombre *" required>
+            <input class="form-control mb-2" name="Apellido_Padre" placeholder="Apellido *" required>
+            <input class="form-control mb-2" type="tel" name="Telefono" placeholder="Teléfono *" required>
+            <input class="form-control mb-2" type="email" name="Correo" placeholder="Correo *" required>
+            <input class="form-control mb-2" name="Parentesco" placeholder="Parentesco *" required>
+            <input type="hidden" name="_next" value=https://roro2305.github.io/Admisiones.html>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+
+    </div>
+</section>
+
+<footer class="footer text-faded text-center py-5">
+    <div class="container">
+        <p class="m-0 small">AlfaNova &copy; “Formando líderes con innovación y excelencia educativa”</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const selectNivel = document.getElementById("nivel");
+    selectNivel.addEventListener("change", function() {
+        const nivel = this.value;
+        document.querySelectorAll("form[id^='form-']").forEach(f => f.style.display = "none");
+        if(nivel) {
+            const form = document.getElementById("form-" + nivel);
+            if(form) form.style.display = "block";
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+
